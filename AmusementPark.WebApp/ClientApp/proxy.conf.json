@@ -1,0 +1,6 @@
+{
+  "/": {
+    "target": "http://localhost:5000/api/custumers",
+    "secure": false
+  }
+}
