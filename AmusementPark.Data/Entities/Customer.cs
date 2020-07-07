@@ -1,8 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Text;
-
-namespace AmusementPark.Data.Entities
+﻿namespace AmusementPark.Data.Entities
 {
     public class Customer
     {

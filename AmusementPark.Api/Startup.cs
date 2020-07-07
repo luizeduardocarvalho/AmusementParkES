@@ -25,13 +25,7 @@ namespace AmusementPark.Api
             services.AddDbContext<AmusementParkContext>(options =>
                 options.UseSqlServer(Configuration.GetConnectionString("ConnectionString")));
             services.AddTransient<ICustomerService, CustomerService>();
-            services.AddCors(options =>
-            {
-                options.AddPolicy("EnableCORS", builder =>
-                {
-                    builder.AllowAnyOrigin().AllowAnyHeader().AllowAnyMethod().Build();
-                });
-            });
+            services.AddCors();
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
@@ -42,9 +36,13 @@ namespace AmusementPark.Api
                 app.UseDeveloperExceptionPage();
             }
 
+            app.UseCors(
+                options => options.AllowAnyOrigin().AllowAnyMethod().AllowAnyHeader()
+            );
+
             app.UseHttpsRedirection();
 
-            app.UseRouting();            
+            app.UseRouting();
 
             app.UseAuthorization();
 

@@ -1,13 +1,11 @@
 ﻿using AmusementPark.Api.Services.Abstractions;
 using AmusementPark.Data.Entities;
-using Microsoft.AspNetCore.Cors;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Logging;
 using System.Collections.Generic;
 
 namespace AmusementPark.Api.Controllers
 {
-    [EnableCors("CorsPolicy")]
     [ApiController]
     [Route("api/[controller]")]
     public class CustomerController : ControllerBase

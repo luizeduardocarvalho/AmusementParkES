@@ -4,7 +4,6 @@ import { CustomerService } from './customer.serivce';
 
 
 @Component({
-    selector: 'pm-customers',
     templateUrl: './customer-list.component.html',
     styleUrls: ['./customer-list.component.css']
 })

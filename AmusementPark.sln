@@ -3,11 +3,11 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.30204.135
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AmusementPark.Data", "AmusementPark.Data\AmusementPark.Data.csproj", "{A56ADB04-DC30-49EF-A514-1678C2952652}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AmusementPark.Data", "AmusementPark.Data\AmusementPark.Data.csproj", "{A56ADB04-DC30-49EF-A514-1678C2952652}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AmusementPark.Api", "AmusementPark.Api\AmusementPark.Api.csproj", "{8466EA42-A212-4D18-9B3A-9896D67CC9F8}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AmusementPark.Api", "AmusementPark.Api\AmusementPark.Api.csproj", "{8466EA42-A212-4D18-9B3A-9896D67CC9F8}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AmusementPark.WebApp", "AmusementPark.WebApp\AmusementPark.WebApp.csproj", "{A4E614E2-0409-4342-B526-3BC9C08A449E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AmusementPark.WebApp", "AmusementPark.WebApp\AmusementPark.WebApp.csproj", "{A4E614E2-0409-4342-B526-3BC9C08A449E}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
